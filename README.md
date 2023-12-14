@@ -16,6 +16,6 @@
   
 </ol>
 
-<footer>
+
   <p>Pode ver mais aqui: https://github.com/AlexKSP/exercicios </p>
-</footer>
+
