@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(207, 0, 207, 0.13);
+}
+
+.main-header {
+    position: fixed;
+    
+}
+
+.background-header {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    
+}
+
+section {
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.25rem;
+    width: 37rem;
+    height: 30rem;
+    position: relative;
+    top: 20vh;
+    box-shadow: -5px 10px 10px #7e7e7e;
+}
+
+ul {
+    display: block;
+    width: 37rem;
+    line-height: 1.75rem;
+    position: relative;
+    top: 3.75rem;
+    left: 1.875rem;
+}
+
+li {
+    list-style: none;
+    padding: 1rem; /*Remover padding para habilitar o paragrafo*/
+}
+
+.faq {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 1.875rem;
+    left: 1.875rem;
+    z-index: 0;
+}
+
+
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 3.75rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    min-width: 33.125rem;
+    text-align: left;
+    font-size: 1.188rem;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.plus-icon-rigth {
+    float: right;
+}
+
+hr {
+    width: 90%;
+    opacity: 30%;
+}
+
+p {
+    display: none;
+}
