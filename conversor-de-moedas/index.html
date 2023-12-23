@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Conversor</h1>
+        </header>
+        
+        <section class="topSection">
+            <input type="number" format="currency" placeholder="Digite o valor" class="coinCapture" id="coinCapture">
+            <select class="coinType" id="coinType">
+                <option value="Real" id="real">Real</option>
+                <option value="Dolar" id="dolar">Dolar</option>
+                <option value="Euro" id="euro">Euro</option>
+            </select>
+
+            <span class="converetTo">converter para: </span>
+
+            <select class="coinConvert" id="coinConvert">
+                <option value="Dolar">Dolar</option>
+                <option value="Euro">Euro</option>
+                <option value="Real">Real</option>
+            </select>
+            <button class="buttonConvert" id="buttonConvert" onclick="coinValue()">converter</button>
+        </section>
+
+        <section class="bottomSection">
+            <div class="img-1">
+                <img src="" alt="" class="icon-1" id="icon-1">
+            </div>
+
+            <div class="result" id="result">
+
+            </div>
+            <!--Seta apontando para baixo-->
+            <div class="img-2">
+                <img src="" alt="" class="icon-2" id="icon-2">
+            </div>
+        </section>
+
+    </main>
+
+</body>
+<script src="./script.js"></script>
+</html>
