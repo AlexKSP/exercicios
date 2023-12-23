@@ -57,6 +57,10 @@ h1 {
     border: none;
 }
 
+.coinCapture::placeholder {
+    text-align: center;
+}
+
 .coinType {
     /*margin: 25px 30px 25px 0px ;*/
     position: relative;
